@@ -1,0 +1,21 @@
+{
+  "name": "utils",
+  "version": "1.0.0",
+  "description": "常用 JavaScript Utils",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "keywords": [
+    "JavaScript",
+    "utils",
+    "util",
+    "vite",
+    "js"
+  ],
+  "author": "chuxin",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^4.3.5"
+  }
+}
