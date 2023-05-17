@@ -32,9 +32,6 @@ pnpm dev
 
 # 📦️ 多环境打包
 ```shell
-# 构建预发布环境
-pnpm build:stage
-
 # 构建正式环境
-pnpm build:prod
+pnpm build
 ```

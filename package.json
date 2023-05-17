@@ -4,7 +4,8 @@
   "description": "常用 JavaScript Utils",
   "main": "index.js",
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "build": "vite build"
   },
   "keywords": [
     "JavaScript",
