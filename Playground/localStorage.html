@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>localStorage</title>
+  </head>
+  <body>
+    <div id="app">localStorage</div>
+
+    <!-- 版本1 -->
+    <script>
+      // JS 提供的方法
+      console.log(window.localStorage);
+
+      // 设置
+      localStorage.setItem("name", "chuxin");
+      // 获取
+      localStorage.getItem("name");
+    </script>
+
+    <!-- 版本2 -->
+    <script>
+      const storage = {
+        set(key, value) {
+          localStorage.setItem(key, JSON.stringify(value));
+        },
+        get(key) {
+          const value = localStorage.getItem(key);
+          return value ? JSON.parse(value) : null;
+        },
+        remove(key) {
+          localStorage.removeItem(key);
+        },
+        clear() {
+          localStorage.clear();
+        },
+      };
+
+      // 但是这种存在几个问题
+      // 1. 外部想传入什么命令 没有地方初始化
+      // 针对这个问题我们可以使用函数 或者 class 编程来解决这个问题
+    </script>
+
+    <!-- 版本3 -->
+    <script>
+      function createStorage() {
+        return storage;
+      }
+
+      const st = createStorage();
+
+      function defineStorage() {}
+    </script>
+    <!-- 版本4 -->
+    <script>
+      const reactiveLocalStorage = new Proxy(localStorage, {
+        set(target, key, value) {
+          target.setItem(key, JSON.stringify(value));
+          return true;
+        },
+        get(target, key) {
+          try {
+            return JSON.parse(target.getItem(key));
+          } catch (e) {
+            return target.getItem(key);
+          }
+        },
+        deleteProperty(target, key) {
+          target.removeItem(key);
+          return true;
+        },
+        clear(target) {
+          target.clear();
+          return true;
+        },
+      });
+
+      // 使用示例
+      reactiveLocalStorage.foo = "bar";
+      console.log(reactiveLocalStorage.foo); // 'bar'
+    </script>
+    <!-- 版本5 -->
+    <script></script>
+    <!-- 版本6 -->
+    <script></script>
+    <!-- 版本7 -->
+    <script></script>
+    <!-- 版本8 -->
+    <script></script>
+    <!-- 版本9 -->
+    <script></script>
+    <!-- 版本10 -->
+    <script></script>
+    <!-- 版本11 -->
+    <script></script>
+  </body>
+</html>
