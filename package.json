@@ -1,0 +1,14 @@
+{
+  "name": "qiaojun",
+  "version": "1.0.0",
+  "description": "基于 monorepo 只负责提供项目依赖",
+  "private": true,
+  "scripts": {},
+  "keywords": [
+    "qiaojun",
+    "monorepo",
+    "pnpm"
+  ],
+  "author": "chuxin",
+  "license": "ISC"
+}
