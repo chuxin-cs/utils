@@ -1,6 +1,6 @@
 {
   "name": "@qiaojun/utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "📦📦📦 A is utils Library",
   "main": "./dist/utils.umd.cjs",
