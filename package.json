@@ -3,12 +3,19 @@
   "version": "1.0.0",
   "description": "基于 monorepo 只负责提供项目依赖",
   "private": true,
-  "scripts": {},
   "keywords": [
     "qiaojun",
     "monorepo",
     "pnpm"
   ],
+  "scripts": {
+    "utils:dev": "pnpm -F utils dev",
+    "utils:build": "pnpm -F utils build"
+  },
+  "devDependencies": {
+    "typescript": "~5.7.3",
+    "vite": "^6.1.1"
+  },
   "author": "chuxin",
   "license": "ISC"
 }
