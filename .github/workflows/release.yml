@@ -20,7 +20,20 @@ jobs:
           node-version: 18
           registry-url: https://registry.npmjs.org/
       
-      - run: pnpm install --frozen-lockfile
+      # 先检查锁文件是否存在
+      - name: Check for lockfile
+        id: check_lockfile
+        run: echo "exists=$(if [ -f pnpm-lock.yaml ]; then echo 'true'; else echo 'false'; fi)" >> $GITHUB_OUTPUT
+      
+      # 根据锁文件存在情况选择安装命令
+      - name: Install dependencies
+        run: |
+          if [[ "${{ steps.check_lockfile.outputs.exists }}" == "true" ]]; then
+            pnpm install --frozen-lockfile
+          else
+            pnpm install
+            pnpm exec changeset status  # 检查变更集状态
+          fi
       
       - name: Create Release Pull Request or Publish
         uses: changesets/action@v1
