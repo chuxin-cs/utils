@@ -10,8 +10,7 @@
   ],
   "scripts": {
     "utils:dev": "pnpm -F utils dev",
-    "utils:build": "pnpm -F utils build",
-    "utils:publish": "pnpm -F utils publish"
+    "utils:build": "pnpm -F utils build"
   },
   "devDependencies": {
     "@changesets/cli": "^2.29.4",

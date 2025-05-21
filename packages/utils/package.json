@@ -22,8 +22,7 @@
   "homepage": "https://github.com/chuxin-cs/qiaojun/tree/master/packages/utils#readme",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
-    "publish": "npm publish --access=public"
+    "build": "tsc && vite build"
   },
   "files": [
     "dist",
@@ -34,5 +33,8 @@
   "keywords": [
     "qiaojun",
     "utils"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
