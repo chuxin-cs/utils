@@ -1,6 +1,6 @@
 {
   "name": "@qiaojun/utils",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "description": "📦📦📦 A is utils Library",
   "main": "./dist/utils.umd.cjs",
@@ -25,7 +25,7 @@
     "build": "tsc && vite build"
   },
   "files": [
-    "dist/*.js",
+    "dist",
     "package.json",
     "index.d.ts",
     "README.md"
