@@ -1,6 +1,6 @@
 {
   "name": "@qiaojun/pcm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "pull-serve": "node ./serve/index.js",
     "push-serve": "vue-cli-service serve",
@@ -65,5 +65,15 @@
   },
   "lint-staged": {
     "*.{js,jsx,vue,ts,tsx}": "vue-cli-service lint"
-  }
+  },
+  "files": [
+    "dist",
+    "package.json",
+    "index.d.ts",
+    "README.md"
+  ],
+  "keywords": [
+    "qiaojun",
+    "pcm"
+  ]
 }
