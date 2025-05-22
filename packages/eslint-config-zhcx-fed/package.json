@@ -1,0 +1,12 @@
+{
+  "name": "eslint-config-zhcx-fed",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-vue": "^5.0.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 5.0.0"
+  }
+}
