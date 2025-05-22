@@ -1,6 +1,7 @@
 {
   "name": "@qiaojun/pcm",
   "version": "1.0.1",
+  "description": "📦📦📦 音频，用于对讲",
   "scripts": {
     "pull-serve": "node ./serve/index.js",
     "push-serve": "vue-cli-service serve",
@@ -69,11 +70,22 @@
   "files": [
     "dist",
     "package.json",
-    "index.d.ts",
     "README.md"
   ],
   "keywords": [
     "qiaojun",
     "pcm"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chuxin-cs/qiaojun.git",
+    "directory": "packages/pcm"
+  },
+  "bugs": {
+    "url": "https://github.com/chuxin-cs/qioajun/issues"
+  },
+  "homepage": "https://github.com/chuxin-cs/qiaojun/tree/master/packages/pcm#readme"
 }

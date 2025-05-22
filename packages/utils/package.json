@@ -11,15 +11,6 @@
     "import": "./dist/utils.es.js",
     "require": "./dist/utils.umd.cjs"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/chuxin-cs/qiaojun.git",
-    "directory": "packages/utils"
-  },
-  "bugs": {
-    "url": "https://github.com/chuxin-cs/qioajun/issues"
-  },
-  "homepage": "https://github.com/chuxin-cs/qiaojun/tree/master/packages/utils#readme",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build"
@@ -36,5 +27,14 @@
   ],
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chuxin-cs/qiaojun.git",
+    "directory": "packages/utils"
+  },
+  "bugs": {
+    "url": "https://github.com/chuxin-cs/qioajun/issues"
+  },
+  "homepage": "https://github.com/chuxin-cs/qiaojun/tree/master/packages/utils#readme"
 }
