@@ -1,7 +1,6 @@
 {
   "name": "@qiaojun/pcm",
   "version": "1.0.0",
-  "private": true,
   "scripts": {
     "pull-serve": "node ./serve/index.js",
     "push-serve": "vue-cli-service serve",
