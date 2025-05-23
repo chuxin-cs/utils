@@ -7,6 +7,9 @@ git clone https://github.com/chuxin-cs/qiaojun.git
 
 # 安装依赖
 pnpm i
+
+# 部分仓库需要单独安装依赖
+1. pcm
 ```
 
 ## 项目列表
