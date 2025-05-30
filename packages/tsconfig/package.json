@@ -10,7 +10,8 @@
   "author": "chuxin",
   "license": "ISC",
   "files": [
-    "*.json"
+    "*.json",
+    "README.md"
   ],
   "exports": {
     "./base.json": "./tsconfig.base.json",
