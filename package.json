@@ -8,11 +8,6 @@
     "monorepo",
     "pnpm"
   ],
-  "scripts": {
-    "a": "pnpm changesets",
-    "v": "pnpm changesets version",
-    "p": "pnpm changesets publish"
-  },
   "devDependencies": {
     "@changesets/cli": "^2.29.4",
     "@qiaojun/tsconfig": "^1.2.5",
@@ -26,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chuxin-cs/qiaojun.git",
+    "url": "git+https://github.com/chuxin-cs/qiaojun.git"
   },
   "bugs": {
     "url": "https://github.com/chuxin-cs/qioajun/issues"
