@@ -13,13 +13,11 @@
     "*.json",
     "README.md"
   ],
-  "exports": {
-    "./base.json": "./tsconfig.base.json",
-    "./node.json": "./tsconfig.node.json",
-    "./vue.json": "./tsconfig.vue.json",
-    "./react.json": "./tsconfig.react.json"
+  "exports": {  
+    "./vue.json": "./src/vue/tsconfig.json"
   },
   "devDependencies": {
+    "@vue/tsconfig": "^0.7.0",
     "typescript": "~5.8.3"
   },
   "publishConfig": {

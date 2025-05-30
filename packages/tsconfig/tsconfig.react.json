@@ -1,8 +1,0 @@
-{
-  "extends": "./tsconfig.base.json",
-  "compilerOptions": {
-    "jsx": "react-jsx", // React JSX 转换
-    "moduleResolution": "Bundler"
-  },
-  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.jsx"]
-}
