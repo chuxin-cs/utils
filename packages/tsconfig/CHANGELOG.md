@@ -1,5 +1,11 @@
 # @qiaojun/tsconfig
 
+## 1.2.4
+
+### Patch Changes
+
+- fix: 增加 tsconfig.react.json
+
 ## 1.2.3
 
 ### Patch Changes
