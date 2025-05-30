@@ -1,5 +1,11 @@
 # @qiaojun/tsconfig
 
+## 1.2.3
+
+### Patch Changes
+
+- fix: 重新修改代码
+
 ## 1.2.2
 
 ### Patch Changes
