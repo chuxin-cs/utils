@@ -1,7 +1,7 @@
 # @qiaojun
 > 🎉🎉🎉 个人 npm 包源码，基于 pnpm + monorepo 实现，内置 utils、hooks 等等~
 
-## ⌨️ Development
+## Development
 ```bash
 git clone https://github.com/chuxin-cs/qiaojun.git
 
@@ -9,7 +9,7 @@ git clone https://github.com/chuxin-cs/qiaojun.git
 pnpm i
 ```
 
-## 项目列表
+## npm 仓库
 - [pcm](https://github.com/chuxin-cs/qiaojun/tree/master/packages/pcm) 基于 WebSocket 采集录音
 - [utils](https://github.com/chuxin-cs/qiaojun/tree/master/packages/utils) 工具函数库
 - [eslint-config-zhcx-fed](https://github.com/chuxin-cs/qiaojun/tree/master/packages/eslint-config-zhcx-fed) 个人自己 eslint 配置
