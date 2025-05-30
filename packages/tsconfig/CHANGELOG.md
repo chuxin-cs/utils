@@ -1,5 +1,11 @@
 # @qiaojun/tsconfig
 
+## 1.2.0
+
+### Minor Changes
+
+- fix: 更新 vue 的 tsconfig 依赖
+
 ## 1.1.1
 
 ### Patch Changes
