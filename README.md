@@ -4,9 +4,6 @@
 ## 下载项目
 ```bash
 git clone https://github.com/chuxin-cs/qiaojun.git
-
-# 安装依赖
-pnpm i
 ```
 
 ## npm 仓库
