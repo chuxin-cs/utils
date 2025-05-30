@@ -1,5 +1,11 @@
 # @qiaojun/utils
 
+## 2.0.1
+
+### Patch Changes
+
+- fix: 修改 package.json
+
 ## 2.0.0
 
 ### Major Changes
