@@ -1,7 +1,7 @@
 {
   "name": "qiaojun",
   "version": "1.0.0",
-  "description": "基于 monorepo 只负责提供项目依赖",
+  "description": "🎉🎉🎉个人 npm 包源码，基于 pnpm + monorepo 实现，内置 utils、hooks 等等~",
   "private": true,
   "keywords": [
     "qiaojun",
@@ -9,8 +9,9 @@
     "pnpm"
   ],
   "scripts": {
-    "utils:dev": "pnpm -F utils dev",
-    "utils:build": "pnpm -F utils build"
+    "a": "pnpm changesets",
+    "v": "pnpm changesets version",
+    "p": "pnpm changesets publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.29.4",
@@ -19,5 +20,16 @@
     "vite": "^6.1.1"
   },
   "author": "chuxin",
-  "license": "ISC"
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chuxin-cs/qiaojun.git",
+  },
+  "bugs": {
+    "url": "https://github.com/chuxin-cs/qioajun/issues"
+  },
+  "homepage": "https://github.com/chuxin-cs/qiaojun/blob/master#readme"
 }
