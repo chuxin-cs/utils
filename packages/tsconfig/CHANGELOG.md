@@ -1,5 +1,11 @@
 # @qiaojun/tsconfig
 
+## 1.2.5
+
+### Patch Changes
+
+- feat: add tsconfig.node.json 文件
+
 ## 1.2.4
 
 ### Patch Changes
