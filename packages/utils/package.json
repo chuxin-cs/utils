@@ -2,15 +2,15 @@
   "name": "@qiaojun/utils",
   "version": "2.0.0",
   "type": "module",
-  "description": "📦📦📦 A is utils Library",
-  "main": "./dist/utils.umd.cjs",
+  "description": "工具函数库",
+  "main": "./dist/utils.umd.js",
   "module": "./dist/utils.es.js",
   "types": "./index.d.ts",
   "license": "MIT",
   "exports": {
     "types": "./index.d.ts",
     "import": "./dist/utils.es.js",
-    "require": "./dist/utils.umd.cjs"
+    "require": "./dist/utils.umd.js"
   },
   "scripts": {
     "dev": "vite",
