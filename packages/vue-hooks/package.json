@@ -35,11 +35,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chuxin-cs/vue-hooks.git",
-    "directory": "packages/utils"
+    "url": "git+https://github.com/chuxin-cs/qiaojun.git",
+    "directory": "packages/vue-hooks"
   },
   "bugs": {
-    "url": "https://github.com/chuxin-cs/vue-hooks/issues"
+    "url": "https://github.com/chuxin-cs/qiaojun/issues"
   },
-  "homepage": "https://github.com/chuxin-cs/vue-hooks#readme"
+  "homepage": "https://github.com/chuxin-cs/qiaojun/tree/master/packages/vue-hooks#readme"
 }
