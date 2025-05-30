@@ -1,5 +1,11 @@
 # @qiaojun/tsconfig
 
+## 1.1.1
+
+### Patch Changes
+
+- 更新版本，次提交是我的测试 changeset 的更新版本
+
 ## 1.1.0
 
 ### Minor Changes
