@@ -11,6 +11,7 @@ git clone https://github.com/chuxin-cs/qiaojun.git
 - [utils](https://github.com/chuxin-cs/qiaojun/tree/master/packages/utils) 工具函数库
 - [eslint-config-zhcx-fed](https://github.com/chuxin-cs/qiaojun/tree/master/packages/eslint-config-zhcx-fed) 个人自己 eslint 配置
 - [tsconfig](https://github.com/chuxin-cs/qiaojun/tree/master/packages/tsconfig) 用于自己的 React、Vue 项目的 tsconfig 配置
+- [vue-hooks](https://github.com/chuxin-cs/qiaojun/tree/master/packages/vue-hooks) 高性能和简单Vue 3钩子库，思路借鉴自 ahooks
 
 ## Git 贡献提交规范
 
