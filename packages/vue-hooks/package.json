@@ -5,11 +5,11 @@
   "scripts": {
     "build": "vite build"
   },
-  "main": "./dist/vue-hooks.umd.cjs",
-  "module": "./dist/vue-hooks.es.js",
+  "main": "./dist/hooks.umd.js",
+  "module": "./dist/hooks.es.js",
   "exports": {
-    "import": "./dist/vue-hooks.es.js",
-    "require": "./dist/vue-hooks.umd.cjs"
+    "import": "./dist/hooks.es.js",
+    "require": "./dist/hooks.umd.js"
   },
   "keywords": [
     "vue",

@@ -1,3 +1,4 @@
+import path from 'node:path';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
@@ -6,9 +7,8 @@ export default defineConfig({
     lib: {
       entry: path.resolve(__dirname, './lib/index.ts'),
       name: 'VueHooks',
-      formats: ['es', 'cjs', 'iife'],
       fileName: format => {
-        return `index.${format}.js`
+        return `hooks.${format}.js`
       },
     }
   }
