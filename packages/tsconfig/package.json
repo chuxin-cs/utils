@@ -18,8 +18,7 @@
     "./vue.json": "./src/vue/tsconfig.json"
   },
   "devDependencies": {
-    "@vue/tsconfig": "^0.7.0",
-    "typescript": "~5.8.3"
+    "@vue/tsconfig": "^0.7.0"
   },
   "publishConfig": {
     "access": "public"
