@@ -1,0 +1,45 @@
+{
+  "name": "@qiaojun/vue-hooks",
+  "version": "1.0.0",
+  "description": "高性能和简单Vue 3钩子库，思路借鉴自 ahooks",
+  "scripts": {
+    "build": "vite build"
+  },
+  "main": "./dist/vue-hooks.umd.cjs",
+  "module": "./dist/vue-hooks.es.js",
+  "exports": {
+    "import": "./dist/vue-hooks.es.js",
+    "require": "./dist/vue-hooks.umd.cjs"
+  },
+  "keywords": [
+    "vue",
+    "hooks",
+    "vue-hooks",
+    "vue-hooks-lib",
+    "ahooks"
+  ],
+  "files": [
+    "dist",
+    "package.json",
+    "index.d.ts",
+    "README.md"
+  ],
+  "author": "chuxin",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^6.1.1",
+    "vue": "^3.2.13"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chuxin-cs/vue-hooks.git",
+    "directory": "packages/utils"
+  },
+  "bugs": {
+    "url": "https://github.com/chuxin-cs/vue-hooks/issues"
+  },
+  "homepage": "https://github.com/chuxin-cs/vue-hooks#readme"
+}

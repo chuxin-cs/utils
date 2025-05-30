@@ -1,0 +1,10 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.node.json",
+  "include": [
+    "hooks"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
