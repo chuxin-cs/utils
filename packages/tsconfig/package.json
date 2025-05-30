@@ -14,7 +14,8 @@
     "README.md"
   ],
   "exports": {
-    "./vue.json": "./tsconfig.vue.json"
+    "./vue.json": "./tsconfig.vue.json",
+    "./react.json": "./tsconfig.react.json"
   },
   "devDependencies": {
     "@vue/tsconfig": "^0.7.0"
