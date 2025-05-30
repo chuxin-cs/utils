@@ -10,6 +10,7 @@ git clone https://github.com/chuxin-cs/qiaojun.git
 - [pcm](https://github.com/chuxin-cs/qiaojun/tree/master/packages/pcm) 基于 WebSocket 采集录音
 - [utils](https://github.com/chuxin-cs/qiaojun/tree/master/packages/utils) 工具函数库
 - [eslint-config-zhcx-fed](https://github.com/chuxin-cs/qiaojun/tree/master/packages/eslint-config-zhcx-fed) 个人自己 eslint 配置
+- [tsconfig](https://github.com/chuxin-cs/qiaojun/tree/master/packages/tsconfig) 用于自己的 React、Vue 项目的 tsconfig 配置
 
 ## Git 贡献提交规范
 
