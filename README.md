@@ -1,7 +1,7 @@
-# @qiaojun
+# 介绍
 > 🎉🎉🎉 个人 npm 包源码，基于 pnpm + monorepo 实现，内置 utils、hooks 等等~
 
-## Development
+## 下载项目
 ```bash
 git clone https://github.com/chuxin-cs/qiaojun.git
 
