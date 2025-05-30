@@ -1,5 +1,17 @@
 # @qiaojun/tsconfig
 
+## 1.2.2
+
+### Patch Changes
+
+- fix: 我要把 src 文件夹都放出来
+
+## 1.2.1
+
+### Patch Changes
+
+- fix: 这次我删除了一些 tsconfig.json 中的代码
+
 ## 1.2.0
 
 ### Minor Changes
