@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    // 模块解析模式（适配 Vite 等打包工具）
+    "moduleResolution": "Bundler",
+    // Vue 支持 JSX（可选）
+    "jsx": "preserve",
+    "jsxImportSource": "vue"
+  },
+  // typescript 会自动查找 src 目录下的所有 ts 文件
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"]
+}

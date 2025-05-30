@@ -1,0 +1,45 @@
+{
+  // 编译选项
+  "compilerOptions": {
+    // 编译输出的 JavaScript 版本（ESNext 表示最新标准）  ==> target 决定生成的 JS 代码兼容性（如是否包含箭头函数、class 语法等）
+    "target": "ESNext",
+    // 模块系统格式（ESNext 表示使用 ES6+ 的 import/export） ==> module 决定生成的 JS 代码模块系统（如 CommonJS、AMD、UMD 等)
+    "module": "ESNext",
+    // 模块解析策略（Node 表示使用 Node.js 风格的模块解析） ==> moduleResolution 决定如何解析模块（如相对路径、绝对路径、第三方模块等）
+    "moduleResolution": "Node",
+    // ------------------------------------------------------------------------------------
+    // ------------------------------------------------------------------------------------
+    // 启用严格模式，包括检查所有可能的错误
+    "strict": true,
+    // 支持 CommonJS 和 ES6 模块互操作性（如允许 default 导入）
+    "esModuleInterop": true,
+    // 跳过对 node_modules 中类型定义的检查（显著提升编译速度）
+    "skipLibCheck": true,
+    // 强制文件名大小写一致（避免 Windows/Linux 路径问题）
+    "forceConsistentCasingInFileNames": true,
+    // 禁止未使用的局部变量
+    "noUnusedLocals": true,
+    // 禁止未使用的函数参数
+    "noUnusedParameters": true,
+    // 配合 Vue 3 的 `<script setup>` 语法，允许在 `<script setup>` 中使用未定义的变量
+    "erasableSyntaxOnly": true,
+    // 禁止 switch 穿透
+    "noFallthroughCasesInSwitch": true,
+    // 禁止未检查的副作用导入
+    "noUncheckedSideEffectImports": true,
+    // ------------------------------------------------------------------------------------
+    // ------------------------------------------------------------------------------------
+    // 公共路径别名 (一般 vue 和 react 项目都需要)
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    }
+  },
+  // 排除 node_modules 和 dist 目录
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

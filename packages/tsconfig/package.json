@@ -1,0 +1,24 @@
+{
+  "name": "@qiaojun/tsconfig",
+  "version": "1.0.0",
+  "description": "tsconfig 提供 React、Vue 等项目的 tsconfig.json 配置文件",
+  "keywords": [
+    "typescript",
+    "tsconfig",
+    "monorepo"
+  ],
+  "author": "chuxin",
+  "license": "ISC",
+  "files": [
+    "*.json"
+  ],
+  "exports": {
+    "./base.json": "./tsconfig.base.json",
+    "./node.json": "./tsconfig.node.json",
+    "./vue.json": "./tsconfig.vue.json",
+    "./react.json": "./tsconfig.react.json"
+  },
+  "devDependencies": {
+    "typescript": "~5.8.3"
+  }
+}
