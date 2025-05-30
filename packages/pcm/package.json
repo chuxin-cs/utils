@@ -2,6 +2,7 @@
   "name": "@qiaojun/pcm",
   "version": "1.0.1",
   "description": "📦📦📦 音频，用于对讲",
+  "license": "MIT",
   "scripts": {
     "pull-serve": "node ./serve/index.js",
     "push-serve": "vue-cli-service serve",
