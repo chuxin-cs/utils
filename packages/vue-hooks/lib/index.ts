@@ -1,7 +1,13 @@
-function Chuxin() {
-  console.log('Vue3 Hooks...');
+// 导出所有的hooks
+import useBoolean from "../hooks/useBoolean";
+import useState from "../hooks/useState";
+
+export {
+  useBoolean,
+  useState
 }
 
 export default {
-  Chuxin,
-};
+  useBoolean,
+  useState
+}
