@@ -1,6 +1,6 @@
 {
   "name": "@qiaojun/vue-hooks",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "高性能和简单Vue 3钩子库，思路借鉴自 ahooks",
   "scripts": {
     "build": "vite build"

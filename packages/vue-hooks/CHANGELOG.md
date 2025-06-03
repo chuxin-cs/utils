@@ -1,5 +1,11 @@
 # @qiaojun/vue-hooks
 
+## 1.0.3
+
+### Patch Changes
+
+- feat: 修改 lib/index.ts 导出，并且完善 hooks 中逻辑代码，增加 README.md
+
 ## 1.0.2
 
 ### Patch Changes
