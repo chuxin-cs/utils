@@ -5,6 +5,7 @@
   "scripts": {
     "build": "vite build"
   },
+  "type": "module",
   "main": "./dist/hooks.umd.js",
   "module": "./dist/hooks.es.js",
   "exports": {

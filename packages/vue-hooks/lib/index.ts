@@ -6,8 +6,3 @@ export {
   useBoolean,
   useState
 }
-
-export default {
-  useBoolean,
-  useState
-}
