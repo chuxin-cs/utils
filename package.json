@@ -37,6 +37,7 @@
   },
   "homepage": "https://github.com/chuxin-cs/utils/tree/master#readme",
   "devDependencies": {
+    "@changesets/cli": "^2.29.4",
     "@qiaojun/tsconfig": "^1.2.6",
     "typescript": "^5.8.3",
     "vite": "^6.3.5"
