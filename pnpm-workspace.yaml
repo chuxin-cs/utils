@@ -1,5 +1,0 @@
-packages:
-  # packages 目录下一级的包都是子包（受控范围）
-  - 'packages/*'
-  # 插件包
-  - 'plugins/*'

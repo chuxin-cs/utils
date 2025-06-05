@@ -1,30 +1,44 @@
 {
-  "name": "qiaojun",
-  "version": "1.0.0",
-  "description": "🎉🎉🎉个人 npm 包源码，基于 pnpm + monorepo 实现，内置 utils、hooks 等等~",
-  "private": true,
-  "keywords": [
-    "qiaojun",
-    "monorepo",
-    "pnpm"
-  ],
-  "devDependencies": {
-    "@changesets/cli": "^2.29.4",
-    "@qiaojun/tsconfig": "^1.2.5",
-    "typescript": "~5.8.3",
-    "vite": "^6.1.1"
-  },
-  "author": "chuxin",
+  "name": "@qiaojun/utils",
+  "version": "1.0.1",
+  "type": "module",
+  "description": "用于 React、Vue、微信小程序、uni-app 等项目中使用，是常用的工具函数。",
+  "main": "./dist/utils.umd.js",
+  "module": "./dist/utils.es.js",
+  "types": "./index.d.ts",
   "license": "MIT",
+  "exports": {
+    "types": "./index.d.ts",
+    "import": "./dist/utils.es.js",
+    "require": "./dist/utils.umd.js"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "files": [
+    "dist",
+    "package.json",
+    "index.d.ts",
+    "README.md"
+  ],
+  "keywords": [
+    "utils"
+  ],
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chuxin-cs/qiaojun.git"
+    "url": "git+https://github.com/chuxin-cs/utils.git"
   },
   "bugs": {
-    "url": "https://github.com/chuxin-cs/qioajun/issues"
+    "url": "https://github.com/chuxin-cs/utils/issues"
   },
-  "homepage": "https://github.com/chuxin-cs/qiaojun/blob/master#readme"
+  "homepage": "https://github.com/chuxin-cs/utils/tree/master#readme",
+  "devDependencies": {
+    "@qiaojun/tsconfig": "^1.2.6",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  }
 }
